@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "liliaturne-alignrsr_jd149"
+name = "liliaturne-canary_release_rollback_count_trace"
 version = "0.1.0"
 description = "统计各来源片段的贡献量与占比，标出对齐算法研究员·灰度发布与版本回滚上最主要的来源"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://liliaturne.github.io"
-Repository = "https://github.com/liliaturne/alignrsr_jd149"
-Issues = "https://github.com/liliaturne/alignrsr_jd149/issues"
+Repository = "https://github.com/liliaturne/canary_release_rollback_count_trace"
+Issues = "https://github.com/liliaturne/canary_release_rollback_count_trace/issues"
 
 [project.scripts]
-alignrsr_jd149 = "alignrsr_jd149:main"
+canary_release_rollback_count_trace = "canary_release_rollback_count_trace:main"
 
 [tool.setuptools]
-py-modules = ["alignrsr_jd149"]
+py-modules = ["canary_release_rollback_count_trace"]

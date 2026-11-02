@@ -1,11 +1,11 @@
-# alignrsr_jd149
+# canary_release_rollback_count_trace
 
 **追溯对齐算法研究员·灰度发布与版本回滚里每一份贡献来自哪里。**
 
-`alignrsr_jd149` —— 统计各来源片段的贡献量与占比，标出对齐算法研究员·灰度发布与版本回滚上最主要的来源
+`canary_release_rollback_count_trace` —— 统计各来源片段的贡献量与占比，标出对齐算法研究员·灰度发布与版本回滚上最主要的来源
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`alignrsr_jd149.py` 拷走就能用
+- 单文件，`canary_release_rollback_count_trace.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install liliaturne-alignrsr_jd149
+pip install liliaturne-canary_release_rollback_count_trace
 ```
 
 装完直接用命令名调用：
 
 ```bash
-alignrsr_jd149 --help
+canary_release_rollback_count_trace --help
 ```
 
-也可以不用安装，直接把 `alignrsr_jd149.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `canary_release_rollback_count_trace.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ alignrsr_jd149 --help
 ## 用法
 
 ```bash
-python alignrsr_jd149.py --file input.txt
-python alignrsr_jd149.py --text "示例内容"
-python alignrsr_jd149.py --file input.txt --json
+python canary_release_rollback_count_trace.py --file input.txt
+python canary_release_rollback_count_trace.py --text "示例内容"
+python canary_release_rollback_count_trace.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python alignrsr_jd149.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_alignrsr_jd149.py
+python test_canary_release_rollback_count_trace.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_alignrsr_jd149.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/liliaturne/alignrsr_jd149>
+- GitHub 仓库：<https://github.com/liliaturne/canary_release_rollback_count_trace>
 
 ---
 
@@ -79,7 +79,7 @@ python test_alignrsr_jd149.py
 liliaturne 做对齐算法研究员·灰度发布与版本回滚相关的问题，方向对标智谱AI的资深对齐算法研究员岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://liliaturne.github.io>
-- 仓库：<https://github.com/liliaturne/alignrsr_jd149>
+- 仓库：<https://github.com/liliaturne/canary_release_rollback_count_trace>
 
 ## 许可
 
